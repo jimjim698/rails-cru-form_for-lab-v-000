@@ -1,8 +1,8 @@
 class SongsController < ApplicationController
 
 
-  def show 
+  def show
     @song = Song.new
   end 
-  
+
 end
