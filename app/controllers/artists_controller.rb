@@ -21,7 +21,7 @@ class ArtistsController < ApplicationController
     @artist = Artist.find(params[:id])
     @artist.update(artist_params(:name, :bio))
     redirect_to artist_path(@artist)
-  end 
+  end
 
 
 
