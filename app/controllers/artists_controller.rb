@@ -5,6 +5,6 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    
+    @artist = Artist.new 
   end
 end
